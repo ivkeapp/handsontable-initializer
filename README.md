@@ -89,5 +89,11 @@ See [`examples/basic.html`](examples/basic.html) for a working demo with CDN imp
 - Fork the repo, create a feature branch, and submit a pull request.
 - Please add tests and update documentation for new features.
 
+## Tribute to Handsontable
+
+This project is built on top of the amazing [Handsontable](https://handsontable.com/) library. Handsontable is a powerful JavaScript data grid that makes working with tables and spreadsheets in web applications a joy. We deeply appreciate the work of the Handsontable team and their commitment to open source and developer experience. If you find this project useful, please consider supporting or contributing to Handsontable as well!
+
+You can learn more and get started with Handsontable at [handsontable.com](https://handsontable.com/).
+
 ## License
 MIT
