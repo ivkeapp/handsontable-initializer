@@ -5,7 +5,7 @@
   "main": "dist/handsontable-initializer.js",
   "module": "dist/handsontable-initializer.esm.js",
   "types": "index.d.ts",
-  "author": "Ivan Žarković <ivan@eventures.rs>",
+  "author": "Ivan Žarković <ivanzarkovic@yahoo.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
