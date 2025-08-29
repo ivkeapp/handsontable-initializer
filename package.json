@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w" 
+    "dev": "rollup -c -w"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
