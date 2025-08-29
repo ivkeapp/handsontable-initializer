@@ -89,8 +89,5 @@ See [`examples/basic.html`](examples/basic.html) for a working demo with CDN imp
 - Fork the repo, create a feature branch, and submit a pull request.
 - Please add tests and update documentation for new features.
 
-## Changelog
-See [CHANGELOG.md](CHANGELOG.md) for release notes.
-
 ## License
 MIT
