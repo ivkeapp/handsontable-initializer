@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Handsontable Initializer Example</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css">
+  <style>
+    #exampleContainer { width: 100%; margin: 40px auto; }
+  </style>
+</head>
+<body>
+  <div id="exampleContainer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment"></script>
+  <script src="../dist/handsontable-initializer.js"></script>
+  <script>
+    const data = [
+      { name: 'John', surname: 'Doe', balance: 5900.13 },
+      { name: 'Jane', surname: 'Smith', balance: 100000.55 }
+    ];
+    const columns = [
+      { data: 'name', type: 'text' },
+      { data: 'surname', type: 'text' },
+      { data: 'balance', type: 'text', renderer: 'formatNumberRender' }
+    ];
+    const colHeaders = ['Name', 'Surname', 'Balance'];
+    initializeHandsontable('exampleContainer', {
+      columns,
+      colHeaders,
+      hiddenColumns: { columns: [] },
+      afterSelectionEnd: function(row, col) {
+        console.log('Selected:', row, col);
+      },
+      config: { data }
+    });
+  </script>
+</body>
+</html>
