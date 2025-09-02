@@ -1,6 +1,6 @@
 {
   "name": "handsontable-initializer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A utility to quickly initialize Handsontable tables with advanced features: filters, sums, averages, custom renderers, and more.",
   "main": "dist/handsontable-initializer.js",
   "module": "dist/handsontable-initializer.esm.js",
